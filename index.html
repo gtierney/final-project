@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CharityFindr</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- css -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ <!-- javascript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- raphael -->
+  <script type="text/javascript" src="javascripts/raphael.min.js"></script>
+  <!-- worldmap -->
+  <script type="text/javascript" src="javascripts/worldmap.js"></script>
+  <!--more css-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<body>
+    <div class="navbar-wrapper">
+        <div class="container">
+
+          <nav class="navbar navbar-inverse navbar-static-top navbar-custom">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">CharityFindr</a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="animals.html">Animals</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Environment</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">People</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        </div>
+    </div>
+<!--end nav -->
+
+  <div class="container">
+    <h1 id="title">explore. search. save.</h1> 
+    <h2 id="location_name">hover to find a cause to explore</h2>
+  </div>
+
+  <div class="container">
+    	<div id="map"></div>
+  </div>
+  <div class="container">
+
+    <hr class="featurette-divider">
+
+      <!-- Three columns -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-square" src="img/elephant/Chiangmai2.jpg" alt="elephant" width="360" height="140">
+          <h2>Elephant Nature Park</h2>
+          <p>Location: Chiang Mai, Thailand <br> There are abundant opportunities to volunteer, explore and donate. 
+          </p>
+          <p><a href="enp.html">learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-square" src="img/kanga/The_Kangaroo_Sanctuary_Logo-85-44_opt.jpg" alt="kangroo" width="360" height="140">
+          <h2>The Kangaroo Sanctuary</h2>
+          <p>Location: Alice Springs, Australia<br> Tours are available during the week and donations are welcome.
+          </p>
+          <p><a href="kanga.html">learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-square" src="img/blackjag/6rAUNbm_opt.jpg" alt="Generic placeholder image" width="360" height="140">
+          <h2>Black Jaguar White Tiger Foundation</h2>
+          <p>Location: Mexico City, Mexico <br> The foundation offers the chance to become a sponsor to an animal among many other opportunities. </p>
+          <p><a href="bjwt.html">learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    <hr class="featurette-divider">
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-square" src="img/sochi/sochidawgs.png" alt="dogs" width="360" height="140">
+          <h2>Sochi Dogs</h2>
+          <p>Location: Sochi, Russia <br> Individuals can sponsor an animal or be lucky enough to adopt a stray dog and finally give it a home.</p>
+          <p><a href="sochi.html">learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-square" src="img/ziwa/ziwa_opt.png" alt ="rhinos" width="360" height="140">
+          <h2>Ziwa Rhino Sanctuary</h2>
+          <p>Location: Nakasongola, Uganda <br> Visitors can hike or take guided tours throughout the park and even have the option to stay overnight.</p>
+          <p><a href="ziwa.html">learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-square" src="img/bearcreek/bearcreek_opt.jpg" alt="bear creek" width="360" height="140">
+          <h2>Bear Creek Exotic Wildlife Sanctuary</h2>
+          <p>Location: Barrie, Canada <br> There are volunteer options as well as weekly events and opportunities to spend time with and care for the animals at Bear Creek.</p>
+          <p><a href="bcews.html">learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+
+  <div class="container">
+      <footer></footer>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
